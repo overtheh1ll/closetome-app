@@ -1,0 +1,72 @@
+/* leaflet-styles.css - Include this in your src directory */
+/* This file contains the essential Leaflet styles */
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-control-container .leaflet-control {
+  margin: 10px;
+}
+
+.leaflet-control-zoom {
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+.leaflet-control-zoom a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: #fff;
+}
+
+.leaflet-control-zoom a:first-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #f4f4f4;
+}
+
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 5px;
+  font-size: 11px;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 1px;
+  border-radius: 12px;
+}
+
+.leaflet-popup-content {
+  margin: 13px 19px;
+  line-height: 1.4;
+}
+
+.leaflet-popup-tip-container {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.leaflet-popup-tip {
+  width: 17px;
+  height: 17px;
+  padding: 1px;
+  margin: -10px auto 0;
+  transform: rotate(45deg);
+  background: white;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}

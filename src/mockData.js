@@ -1,0 +1,147 @@
+// src/mockData.js
+// Mock data for places
+export const mockData = [
+  {
+    id: 1,
+    name: "Whole Foods Market",
+    category: "store",
+    address: "399 4th St",
+    distance: "0.3 miles",
+    rating: 4.2,
+    reviewCount: 238,
+    priceLevel: '$$',
+    hours: 'Open until 10:00 PM',
+    lat: 37.7797,
+    lng: -122.3997,
+    tags: ["health", "food", "organic", "grocery"]
+  },
+  {
+    id: 2,
+    name: "Vitality Bowls",
+    category: "restaurant",
+    address: "270 5th St",
+    distance: "0.4 miles",
+    rating: 4.5,
+    reviewCount: 156,
+    priceLevel: '$$',
+    hours: 'Open until 8:00 PM',
+    lat: 37.7811,
+    lng: -122.4022,
+    tags: ["health", "food", "acai", "smoothies"]
+  },
+  {
+    id: 3,
+    name: "Sweetgreen",
+    category: "restaurant",
+    address: "171 2nd St",
+    distance: "0.5 miles",
+    rating: 4.7,
+    reviewCount: 412,
+    priceLevel: '$$',
+    hours: 'Open until 9:00 PM',
+    lat: 37.7873,
+    lng: -122.3994,
+    tags: ["health", "food", "salad", "organic"]
+  },
+  {
+    id: 4,
+    name: "Project Juice",
+    category: "cafe",
+    address: "525 Market St",
+    distance: "0.2 miles",
+    rating: 4.3,
+    reviewCount: 98,
+    priceLevel: '$$',
+    hours: 'Open until 7:00 PM',
+    lat: 37.7905,
+    lng: -122.3991,
+    tags: ["health", "food", "juice", "smoothies"]
+  },
+  {
+    id: 5,
+    name: "Pressed Juicery",
+    category: "cafe",
+    address: "301 Mission St",
+    distance: "0.6 miles",
+    rating: 4.1,
+    reviewCount: 187,
+    priceLevel: '$$',
+    hours: 'Open until 8:00 PM',
+    lat: 37.7908,
+    lng: -122.3967,
+    tags: ["health", "food", "juice", "cleanse"]
+  },
+  {
+    id: 6,
+    name: "Starbucks",
+    category: "cafe",
+    address: "123 Main St",
+    distance: "0.2 miles",
+    rating: 4.0,
+    reviewCount: 523,
+    priceLevel: '$$',
+    hours: 'Open until 9:00 PM',
+    lat: 37.7749,
+    lng: -122.4194,
+    tags: ["coffee", "tea", "pastries"]
+  },
+  {
+    id: 7,
+    name: "Chipotle",
+    category: "restaurant",
+    address: "456 Market St",
+    distance: "0.5 miles",
+    rating: 4.2,
+    reviewCount: 347,
+    priceLevel: '$$',
+    hours: 'Open until 10:00 PM',
+    lat: 37.7746,
+    lng: -122.4172,
+    tags: ["mexican", "fast casual"]
+  },
+  {
+    id: 8,
+    name: "Target",
+    category: "store",
+    address: "789 Mission St",
+    distance: "0.8 miles",
+    rating: 3.9,
+    reviewCount: 612,
+    priceLevel: '$',
+    hours: 'Open until 10:00 PM',
+    lat: 37.7835,
+    lng: -122.4167,
+    tags: ["retail", "grocery", "household"]
+  },
+  {
+    id: 9,
+    name: "Blue Bottle Coffee",
+    category: "cafe",
+    address: "101 Montgomery St",
+    distance: "0.3 miles",
+    rating: 4.6,
+    reviewCount: 289,
+    priceLevel: '$$$',
+    hours: 'Open until 7:00 PM',
+    lat: 37.7899,
+    lng: -122.4021,
+    tags: ["coffee", "pastries"]
+  },
+  {
+    id: 10,
+    name: "Trader Joe's",
+    category: "store",
+    address: "555 9th St",
+    distance: "1.2 miles",
+    rating: 4.6,
+    reviewCount: 892,
+    priceLevel: '$',
+    hours: 'Open until 9:00 PM',
+    lat: 37.7705,
+    lng: -122.4103,
+    tags: ["grocery", "organic", "health"]
+  }
+];
+
+// Also provide a default export for backward compatibility
+export default mockData;

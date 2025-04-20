@@ -1,0 +1,105 @@
+/* Compact Places List */
+.places-list {
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.place-card {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.place-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.place-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.place-distance {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.place-details {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.place-rating {
+  font-size: 0.8rem;
+  color: #e67e22;
+}
+
+.place-price {
+  font-size: 0.8rem;
+  color: #27ae60;
+}
+
+.place-address {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Darker, sharper category buttons */
+.category-buttons {
+  display: flex;
+  gap: 6px;
+  padding: 8px 0;
+  flex-wrap: wrap;
+}
+
+.category-button {
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #f0f4f8;
+  color: #2c3e50;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-button.active {
+  background-color: #1a5b96;  /* Darker, sharper blue */
+  color: white;
+}
+
+/* Dark mode adjustments */
+.dark-mode .place-card {
+  background-color: #2d3748;
+}
+
+.dark-mode .place-name,
+.dark-mode .place-address {
+  color: #e2e8f0;
+}
+
+.dark-mode .place-distance {
+  color: #a0aec0;
+}
+
+.dark-mode .category-button {
+  background-color: #4a5568;
+  color: #e2e8f0;
+}
+
+.dark-mode .category-button.active {
+  background-color: #2b6cb0;
+}
